@@ -1,0 +1,21 @@
+/* Beispiel 1 - Inheritance */
+p {
+  background-color: black;
+  color: lightgreen; }
+
+p {
+  background-color: blue;
+  color: #ff0000; }
+
+/* Spezifischer werden mit einer CSS Klasse */
+.specificity {
+  color: white;
+  background-color: black; }
+
+.specificity span {
+  color: blue; }
+
+/* Auch hier gilt: was zuletzt im CSS geladen wird, "gewinnt" */
+.specificity {
+  color: green;
+  background-color: orange; }
