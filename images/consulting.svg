@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="117px" viewBox="0 0 143 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-//-3er-Grid---Hellgrün" transform="translate(-295.000000, -1442.000000)">
+            <g id="Group-7" transform="translate(295.000000, 1442.000000)">
+                <rect id="Rectangle-11" fill="#D5F673" x="0" y="0" width="143" height="71"></rect>
+                <rect id="Rectangle-12" fill="#272830" x="92" y="66" width="30" height="5"></rect>
+                <rect id="Rectangle-13" fill="#BBEA2F" transform="translate(71.500000, 67.000000) rotate(-55.000000) translate(-71.500000, -67.000000) " x="44" y="65" width="55" height="4" rx="2"></rect>
+                <circle id="Oval-6" stroke="#272830" stroke-width="5" cx="37" cy="61" r="17"></circle>
+                <path d="M65,105.415326 C65,94.8125068 52.6878306,78 37.5,78 C22.3121694,78 10,93.1556237 10,105.415326 C10,117.675029 65,116.018146 65,105.415326 Z" id="Oval-7" stroke="#272830" stroke-width="5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

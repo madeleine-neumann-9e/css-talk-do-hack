@@ -1,0 +1,63 @@
+/* Beispiel 1 - Inheritance */
+p {
+	background-color: black;
+	color: lightgreen;
+}
+
+p {
+	background-color: blue;
+	color: #ff0000;
+}
+
+/* Beispiel 2 specificity */
+.specificity {
+	color: white;
+	background-color: black;
+
+	&:hover {
+		background-color: orange;
+	}
+}
+
+#some-unique-stuff {
+	&:hover {
+		animation: beispiel 5s infinite;
+	}
+}
+
+@keyframes beispiel {
+	from {
+		background-color: red;
+	}
+
+	to {
+		background-color: yellow;
+	}
+}
+// Beispiel 3 - BEM
+.button {
+	min-width: 200px;
+	padding: 20px;
+	border-radius: 100px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	text-align: left;
+}
+
+.button__preis {
+	text-align: right;
+}
+
+.button__text {
+	text-align: center;
+}
+
+.button--sale {
+	color: white;
+	background-color: red;
+}
+
+.button--besonders-wichtig {
+	font-weight: bold;
+	border: 2px dotted white;
+}

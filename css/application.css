@@ -1,21 +1,41 @@
-/* Beispiel 1 - Inheritance */
-p {
-  background-color: black;
-  color: lightgreen; }
+.container {
+  margin: 0 auto; }
+  @media (min-width: 800px) {
+    .container {
+      width: 800px; } }
 
-p {
-  background-color: blue;
-  color: #ff0000; }
+.info-section {
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  color: lightgrey;
+  grid-template-columns: 1fr; }
+  @media (min-width: 800px) {
+    .info-section {
+      grid-template-columns: 1fr 1fr 1fr; } }
 
-/* Spezifischer werden mit einer CSS Klasse */
-.specificity {
-  color: white;
-  background-color: black; }
+.info-section__box {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto 40px auto; }
+  @media (min-width: 800px) {
+    .info-section__box {
+      padding: 20px;
+      margin: 0;
+      width: auto; } }
 
-.specificity span {
-  color: blue; }
+.info-section__image {
+  width: auto;
+  height: 114px;
+  margin: 0 auto 40px auto; }
 
-/* Auch hier gilt: was zuletzt im CSS geladen wird, "gewinnt" */
-.specificity {
-  color: green;
-  background-color: orange; }
+.info-section__headline {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #8a8a8a; }
+
+.info-section__explanation {
+  padding: 5px; }
+
+.info-section--alert {
+  color: red; }
