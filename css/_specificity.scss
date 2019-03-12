@@ -1,1 +1,29 @@
+/* Beispiel 2 specificity */
+.specificity {
+	color: white;
+	background-color: black;
 
+	&:hover {
+		background-color: orange;
+	}
+}
+
+.some-unique-stuff {
+	&:hover {
+		animation: beispiel 5s infinite;
+	}
+}
+
+@keyframes beispiel {
+	from {
+		background-color: red;
+	}
+
+	to {
+		background-color: yellow;
+	}
+}
+
+div > nav > ul > li > a {
+	color: green;
+}

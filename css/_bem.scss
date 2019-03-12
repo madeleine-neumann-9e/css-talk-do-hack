@@ -1,53 +1,58 @@
-$min-width: 800px;
-
-.container {
-	margin: 0 auto;
-
-	@media (min-width: $min-width) {
-		width: $min-width;
-	}
-}
-
-.info-section {
+.o-info-section {
 	display: grid;
-	font-family: 'Roboto', sans-serif;
-	color: lightgrey;
 	grid-template-columns: 1fr;
+	grid-gap: 20px;
 
 	@media (min-width: $min-width) {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
 
-.info-section__box {
+.m-card {
 	display: flex;
-	flex-direction: column;
-	width: 60%;
-	margin: 0 auto 40px auto;
+	flex-flow: column;
+	max-width: 350px;
+	margin: 0 auto 20px auto;
 
 	@media (min-width: $min-width) {
-		padding: 20px;
-		margin: 0;
-		width: auto;
+		max-width: auto;
 	}
 }
 
-.info-section__image {
+.a-h3 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.a-card-image {
+	display: block;
+	margin: 0 auto 10px auto;
 	width: auto;
-	height: 114px;
-	margin: 0 auto 40px auto;
+	height: 100px;
 }
 
-.info-section__headline {
-	font-weight: 800;
-	font-size: 1.2rem;
-	color: rgb(138, 138, 138);
+.a-card-headline {
+	text-transform: uppercase;
+	color: lightgray;
+	margin-bottom: 10px;
+
+	&--left {
+		text-align: left;
+	}
+
+	&--right {
+		text-align: right;
+	}
+
+	&--center {
+		text-align: center;
+	}
+
+	&--alert {
+		color: red;
+	}
 }
 
-.info-section__explanation {
-	padding: 5px;
-}
-
-.info-section--alert {
-	color: red;
+.a-card-description {
+	color: darkgray;
 }
