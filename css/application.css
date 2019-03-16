@@ -12,7 +12,7 @@
   .specificity:hover {
     background-color: orange; }
 
-.some-unique-stuff:hover {
+#some-unique-stuff:hover {
   animation: beispiel 5s infinite; }
 
 @keyframes beispiel {
@@ -20,48 +20,3 @@
     background-color: red; }
   to {
     background-color: yellow; } }
-div > nav > ul > li > a {
-  color: green; }
-
-.o-info-section {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px; }
-  @media (min-width: 800px) {
-    .o-info-section {
-      grid-template-columns: 1fr 1fr 1fr; } }
-
-.m-card {
-  display: flex;
-  flex-flow: column;
-  max-width: 350px;
-  margin: 0 auto 20px auto; }
-  @media (min-width: 800px) {
-    .m-card {
-      max-width: auto; } }
-
-.a-h3 {
-  text-align: center;
-  font-size: 2rem; }
-
-.a-card-image {
-  display: block;
-  margin: 0 auto 10px auto;
-  width: auto;
-  height: 100px; }
-
-.a-card-headline {
-  text-transform: uppercase;
-  color: lightgray;
-  margin-bottom: 10px; }
-  .a-card-headline--left {
-    text-align: left; }
-  .a-card-headline--right {
-    text-align: right; }
-  .a-card-headline--center {
-    text-align: center; }
-  .a-card-headline--alert {
-    color: red; }
-
-.a-card-description {
-  color: darkgray; }

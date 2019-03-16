@@ -8,7 +8,7 @@
 	}
 }
 
-.some-unique-stuff {
+#some-unique-stuff {
 	&:hover {
 		animation: beispiel 5s infinite;
 	}
@@ -24,6 +24,6 @@
 	}
 }
 
-div > nav > ul > li > a {
-	color: green;
-}
+// div > nav > ul > li > a {
+// 	color: green;
+// }
