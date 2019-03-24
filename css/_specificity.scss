@@ -2,28 +2,12 @@
 .specificity {
 	color: white;
 	background-color: black;
-
-	&:hover {
-		background-color: orange;
-	}
 }
 
-#some-unique-stuff {
-	&:hover {
-		animation: beispiel 5s infinite;
-	}
+.specificity:hover {
+	background-color: orange;
 }
 
-@keyframes beispiel {
-	from {
-		background-color: red;
-	}
-
-	to {
-		background-color: yellow;
-	}
+#some-unique-stuff:hover {
+	background-color: purple;
 }
-
-// div > nav > ul > li > a {
-// 	color: green;
-// }

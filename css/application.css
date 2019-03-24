@@ -9,14 +9,35 @@
 .specificity {
   color: white;
   background-color: black; }
-  .specificity:hover {
-    background-color: orange; }
+
+.specificity:hover {
+  background-color: orange; }
 
 #some-unique-stuff:hover {
-  animation: beispiel 5s infinite; }
+  background-color: purple; }
 
-@keyframes beispiel {
-  from {
-    background-color: red; }
-  to {
-    background-color: yellow; } }
+.security {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px; }
+  @media (min-width: 800px) {
+    .security {
+      grid-template-columns: 1fr 1fr 1fr; } }
+  .security__card {
+    border: 1px solid black; }
+    .security__card--special-offer {
+      background-color: orange; }
+  .security__image {
+    height: 110px;
+    width: auto;
+    display: block;
+    margin: 0 auto 10px auto; }
+  .security__headline {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: darkgrey; }
+    .security__headline--special-offer {
+      color: red; }
+  .security__text {
+    color: grey; }
